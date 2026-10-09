@@ -10,10 +10,10 @@ TEXT = Path("samples/recital.txt").read_text()
 class PartyTests(unittest.TestCase):
     def test_two_parties(self):
         parties = find_parties(TEXT)
-        self.assertEqual(parties[0]["name"], "Harbor Street LLC")
+        self.assertEqual(parties[0]["name"], "Harbour Street Limited")
         self.assertEqual(parties[0]["role"], "Customer")
-        self.assertEqual(parties[1]["name"], "Northline Data LLC")
-        self.assertEqual(parties[1]["role"], "Vendor")
+        self.assertEqual(parties[1]["name"], "Northline Data Limited")
+        self.assertEqual(parties[1]["role"], "Supplier")
 
     def test_no_parties_without_the_pattern(self):
         self.assertEqual(find_parties("The Planning Board met on Tuesday."), [])

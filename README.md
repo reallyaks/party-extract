@@ -1,8 +1,8 @@
 # party-extract
 
-Reads one recital shaped like `between Harbor Street LLC ("Customer") and Northline Data LLC ("Vendor")`.
+Reads one recital shaped like `between Harbour Street Limited ("Customer") and Northline Data Limited ("Supplier")`.
 
-Not legal advice. It does not find every name in the document, only that between-and pair.
+It does not find every name in the document. Only that between-and pair.
 
 ## Run
 
